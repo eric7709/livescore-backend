@@ -1,0 +1,10 @@
+package com.zestio.app.competition.dto;
+
+public record PlayerRankingDTO(
+        Long playerId,
+        String name,
+        Long teamId,
+        String teamName,
+        String teamLogoUrl,
+        Long value
+) {}

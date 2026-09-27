@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ZestioApplication",
+            "request": "launch",
+            "mainClass": "com.zestio.app.ZestioApplication",
+            "projectName": "livescore"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZestioApplication<zestio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.zestio.app.ZestioApplication",
+            "projectName": "zestio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
