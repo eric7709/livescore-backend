@@ -2,18 +2,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "ZestioApplication",
+            "name": "LivescoreApplication",
             "request": "launch",
-            "mainClass": "com.zestio.app.ZestioApplication",
+            "mainClass": "com.livescore.app.LivescoreApplication",
             "projectName": "livescore"
         },
         {
             "type": "java",
-            "name": "Spring Boot-ZestioApplication<zestio>",
+            "name": "Spring Boot-LivescoreApplication<livescore>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.zestio.app.ZestioApplication",
-            "projectName": "zestio",
+            "mainClass": "com.livescore.app.LivescoreApplication",
+            "projectName": "livescore",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
